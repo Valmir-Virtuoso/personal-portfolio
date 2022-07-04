@@ -10,7 +10,7 @@ footer {
     flex-direction: column;
 
     padding-top: 10px;
-    margin-top: 200px;
+    margin-top: 237px;
 
 }
 
@@ -20,6 +20,13 @@ footer {
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+    opacity: 0.5;
+
+}
+.footer-social-media svg:hover {
+
+    transition: all 0.2s;
+    opacity: 1;
 
 }
 

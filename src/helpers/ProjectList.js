@@ -8,7 +8,7 @@ export const ProjectList = [
 
         name: "NuKenzie",
         image: imgNu,
-        link: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-Valmir-Virtuoso",
+        link: "https://react-entrega-s1-nu-kenzie-valmir-virtuoso.vercel.app",
         skills: "React, Styled-Components"
 
     },
@@ -17,7 +17,7 @@ export const ProjectList = [
 
         name: "Hamburgueria Kenzie",
         image: imgBurguer,
-        link: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-Valmir-Virtuoso",
+        link: "https://react-entrega-s1-hamburgueria-da-kenzie-valmir-virtuoso.vercel.app",
         skills: "React, Styled-Components"
 
     },

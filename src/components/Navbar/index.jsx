@@ -10,6 +10,8 @@ const NavBar = () =>  {
     //Fecha a o menu mobile quando trocar de pagina.
     const location = useLocation();
 
+    console.log(location)
+
     useEffect(() => {
 
         setExpandNavBar(false);
@@ -18,7 +20,7 @@ const NavBar = () =>  {
 
     return (
 
-        <div className="navbar" id={expandNavBar ? "open" : "close"}>
+        <header className="navbar" id={expandNavBar ? "open" : "close"}>
 
             <div className="toggleButton">
 
@@ -30,13 +32,13 @@ const NavBar = () =>  {
 
             <div className="links">
 
-                <Link to="/">Home</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/experience">Experience</Link>
+                <Link to="/" className={location.pathname === "/" ? "test" : ""}>Home</Link>
+                <Link to="/projects" className={location.pathname === "/projects" ? "test" : ""}>Projects</Link>
+                <Link to="/experience" className={location.pathname === "/experience" ? "test" : ""}>Experience</Link>
 
             </div>
 
-        </div>
+        </header>
 
     );
 

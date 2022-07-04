@@ -1,13 +1,12 @@
 import ProjectItem from "../../components/ProjectItens";
 import { ProjectList } from "../../helpers/ProjectList";
-
-import './styles.css';
+import { Container } from "./style";
 
 const Projects = () => {
 
     return (
 
-        <main className="projects">
+        <Container>
 
             <h1> Meus Projetos </h1>
             <div className="projectList">
@@ -24,7 +23,7 @@ const Projects = () => {
 
             </div>
 
-        </main>
+        </Container>
 
     );
 

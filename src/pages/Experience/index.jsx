@@ -21,7 +21,7 @@ const Experience = () => {
                 >
 
                     <h3 className="vertical-timeline-element-title">Escola de Ensino médio - Horácio de Macedo</h3>
-                    <p>Escola de horário integral perto do metro de maria da graça</p>
+                    <p>Escola de horário integral perto do metro de maria da graça.</p>
 
                 </VerticalTimelineElement>
 

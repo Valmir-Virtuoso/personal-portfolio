@@ -1,14 +1,13 @@
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
+import { Container } from './style';
 
-import './styles.css';
 
 const Home = () => {
 
     return (
 
-        <div className="home">
+        <Container>
 
             <div className="about">
 
@@ -16,9 +15,12 @@ const Home = () => {
                 <div className="prompt">
 
                     <p>Um desenvolvedor front-end estudando sobre o back-end e criando coisas próprias.</p>
-                    <GitHubIcon />
-                    <LinkedInIcon />
-                    <EmailIcon />
+                    <a href="https://github.com/Valmir-Virtuoso" target="_blank" rel="noreferrer">
+                        <GitHubIcon />
+                    </a>
+                    <a href="https://www.linkedin.com/in/valmirvirtuoso/" target="_blank" rel="noreferrer">
+                        <LinkedInIcon />
+                    </a>
 
                 </div>
 
@@ -64,7 +66,7 @@ const Home = () => {
 
             </div>
 
-        </div>
+        </Container>
 
     );
 

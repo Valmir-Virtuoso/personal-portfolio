@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../../helpers/ProjectList";
-import GitHubIcon from '@material-ui/icons/GitHub';
+import InsertLinkIcon from '@material-ui/icons/InsertLink';
 
-import './styles.css';
+import { Container } from "./style";
 
 const ProjectDisplay = () => {
 
@@ -11,7 +11,7 @@ const ProjectDisplay = () => {
 
     return (
 
-        <div className="project">
+        <Container>
 
             <h1>{project.name}</h1>
             <img src={project.image} alt={project.name} />
@@ -20,11 +20,11 @@ const ProjectDisplay = () => {
                 <strong>Skills:</strong> {project.skills}
 
             </p>
-            <a href={project.link} target="_blank">
-                <GitHubIcon />
+            <a href={project.link} target="_blank" rel="noreferrer">
+                <InsertLinkIcon />
             </a>
 
-        </div>
+        </Container>
 
     );
 
